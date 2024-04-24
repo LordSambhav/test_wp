@@ -19,3 +19,4 @@ spec:
       value: "wordpressuser"
     - name: MYSQL_PASSWORD
       value: "Wordpress@123"
+    args: ["--default-authentication-plugin=mysql_native_password"]
